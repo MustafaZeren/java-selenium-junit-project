@@ -31,15 +31,13 @@ public class BaseTestKeyword extends BaseTest{
     public void SearchProductAddToCart(String productName) throws InterruptedException {
         sendByXpath("//*[@data-cy='header-search-input']",productName);
 
-        clickByXpath("//*[@data-cy='search-find-button']");
+        findElementByXpath("//*[@data-cy='header-search-input']").sendKeys(Keys.ENTER);
 
         Thread.sleep(5000);
 
 
-
-
-        //////////ÜRÜN SEÇME İŞLEMİ YAPILACAK////////////
-        //clickByXpath("//*[@id=\"best-match-right\"]/div[4]/div[3]/ul/li[1]/a/div/p/img");
+        clickByXpath("//*[@id=\"best-match-right\"]/div[4]/div[3]/ul/li[1]/a/div/p/img");
+        Thread.sleep(5000);
 
 
         /////////SEPETE EKLEME YAPILACAK/////////

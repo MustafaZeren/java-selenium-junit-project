@@ -18,7 +18,7 @@ public class GittiGidiyorTest extends BaseTestKeyword {
                 "5555555555"
                 );
 
-        // SearchProductAddToCart("Telefon");
+        SearchProductAddToCart("Telefon");
 
         Login("EMAIL","PAROLA");
 
