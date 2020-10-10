@@ -13,16 +13,16 @@ public class GittiGidiyorTest extends BaseTestKeyword {
         SignUp(
                 "NAME",
                 "SURNAME",
-                "deneme@deneme.com",
-                "123456",
+                "testinium@sahabt.com",
+                "testinium1453@",
                 "5555555555"
                 );
 
         SearchProductAddToCart("Telefon");
 
-        Login("EMAIL","PAROLA");
+        Login("MAIL","PASSWORD");
 
-        AddLocation("PAROLA");
+        AddLocation("PASSWORD");
 
 
     }

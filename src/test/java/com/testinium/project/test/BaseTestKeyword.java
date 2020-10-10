@@ -41,6 +41,8 @@ public class BaseTestKeyword extends BaseTest{
 
 
         /////////SEPETE EKLEME YAPILACAK/////////
+        //clickByXpath("//*[@class=\"action-text\"]");
+        //Thread.sleep(2000);
         //driver.get("https://www.gittigidiyor.com/sepetim");
         //assertEquals("Sepetim - GittiGidiyor",getTitle());
     }
